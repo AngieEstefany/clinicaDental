@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".reserva">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="122dp"
+            android:layout_height="155dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+
+            app:srcCompat="@drawable/reserv" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Reserva tu cita"
+            android:textColor="@color/turque"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+
+            android:hint="Fecha"
+            android:backgroundTint="@color/turque"
+            android:inputType="date" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:alpha="0.5"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/calendario1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/turque"
+            android:ems="10"
+            android:hint="Hora"
+            android:inputType="time" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:alpha="0.5"
+            app:srcCompat="@drawable/reloj" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Servicio"
+            android:textSize="17dp"
+            android:backgroundTint="@color/turque"
+            />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="212dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="50dp"
+            />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="55dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="320dp"
+        app:srcCompat="@drawable/flecha" />
+
+
+</LinearLayout>
